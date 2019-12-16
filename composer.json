@@ -1,0 +1,22 @@
+{
+  "name": "pent64/sitemapparser",
+  "authors": [
+    {
+      "name": "pent6400",
+      "email": "pent6400@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-simplexml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src/"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "7.3"
+    }
+  }
+}
