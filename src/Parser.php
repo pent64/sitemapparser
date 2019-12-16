@@ -85,7 +85,7 @@ class Parser {
 		if ($this->file !== false && $this->file !== null) {
 			fwrite($this->file,$data);
 		} else {
-			echo $data;
+			echo $data.PHP_EOL;
 		}
 	}
 }
